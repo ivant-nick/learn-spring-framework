@@ -10,7 +10,7 @@ public class Traveler {
     private Vehicle vehicle;
 
     @Autowired
-    public Traveler(@Qualifier("cycle") Vehicle vehicle){
+    public Traveler(Vehicle vehicle){
         this.vehicle = vehicle;
     }
 
