@@ -17,7 +17,7 @@ class Student{
     }
 
     public void init(){
-        System.out.println("Intialization logic");
+        System.out.println("Initialization logic");
     }
 
     public void destroy(){
